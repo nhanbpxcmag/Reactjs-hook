@@ -10,6 +10,7 @@ const TodoForm = () => {
   const onChangeTitle = (event) => {
     setTitle(event.target.value);
   };
+
   const submitForm = (event) => {
     event.preventDefault();
     if (title !== "") {
