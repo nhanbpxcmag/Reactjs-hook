@@ -7,7 +7,6 @@ const AuthContextProvider = ({ children }) => {
   const toggleAuth = () => {
     setIsAuth(!isAuth);
   };
-
   const authContextData = {
     isAuth,
     toggleAuth,
